@@ -13,8 +13,7 @@ body {
 	display: flex;
 	list-style: none;
 	justify-content: flex-end;
-	flex-wrap: nowrap;
-	margin: 10px;
+	margin: 1px;
 	padding: 0;
 	text-align: center;
 	height: 100%;
@@ -27,6 +26,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 1px;
+	height: 60px;
 }
 
 .logo {
@@ -38,6 +39,7 @@ body {
 
 a {
 	display: flex;
+	align-items: center;
 	padding: 5px 15px;
 	color: white;
 	text-decoration: none;
@@ -47,7 +49,6 @@ a {
 a:hover {
 	background-color: white;
 	color: #3498db;
-	height: 100%;
 }
 
 /* ---------------------------------------------------- */
